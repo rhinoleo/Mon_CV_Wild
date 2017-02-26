@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(104, 187, 285);
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  max-width: 900px;
+  margin : 0px auto;
+}
+header {
+  margin: 10px 0px;
+  padding: 10px;
+}
+#container {
+  background-color: rgb(73, 131, 179);
+  padding: 10px;
+  display: inline-block;
+}
+#left-box {
+  background-color: rgb(9, 30, 45);
+  color: #fff;
+  float: left;
+  width: 20%;
+  min-width: 150px;
+  margin: 0 10px 0 0;
+  padding: 10px;
+}
+#left-box img{
+  width: 100%;
+}
+#right-box {
+  overflow: hidden;
+}
+#experiences-box, #studies-box {
+  background-color: #fff;
+  padding: 10px;
+}
+.experience, .study{
+  width:80%;
+  padding-left: 10px;
+}
+footer {
+  background-image: url(motif.jpg);
+  background-size: 10%;
+  color: #fff;
+  margin: 10px 0px;
+  padding: 10px;
+}
